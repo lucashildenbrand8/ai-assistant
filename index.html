@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Assistant</title>
+<style>
+  :root { --ink:#1b1b1b; --muted:#555; --bg:#fafaf7; --line:#ddd; --accent:#8a6d1d; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#eee; --muted:#aaa; --bg:#121212; --line:#333; --accent:#d4af37; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 system-ui, sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:3rem 1rem; }
+  h1 { margin:0 0 .25rem; font-size:2rem; }
+  p.lede { color:var(--muted); margin-top:0; }
+  a { color:var(--accent); }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>AI Assistant</h1>
+  <p class="lede">A private, single-user assistant that runs on its owner's own computer.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Reads the owner's Google Calendar to give a morning brief of the day's events.</li>
+    <li>Reads recent Gmail (sender, subject, preview) to point out messages that may need an answer and to suggest labels.</li>
+    <li>Suggests calendar events, email labels and replies. Nothing is created, labelled, archived or sent until the owner approves it on the assistant's private dashboard.</li>
+    <li>Can send the owner optional alerts in their own Telegram chat.</li>
+  </ul>
+
+  <h2>Who can use it</h2>
+  <p>Only its owner. It is not offered to the public, there is no sign-up, and its dashboard is reachable only on the owner's private network.</p>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+
+  <footer>AI Assistant is a personal project. It is not affiliated with or endorsed by Google.</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Assistant Privacy Policy</title>
+<style>
+  :root { --ink:#1b1b1b; --muted:#555; --bg:#fafaf7; --line:#ddd; --accent:#8a6d1d; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#eee; --muted:#aaa; --bg:#121212; --line:#333; --accent:#d4af37; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 system-ui, sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:3rem 1rem; }
+  h1 { margin:0 0 .25rem; font-size:2rem; }
+  p.lede { color:var(--muted); margin-top:0; }
+  a { color:var(--accent); }
+  code { font-size:.9em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="lede">AI Assistant. Last updated 25 November 2026.</p>
+
+  <p>AI Assistant is a personal app used by one person, its owner, on their own computer. This policy explains what Google data it uses, where that data goes, and how to remove it.</p>
+
+  <h2>Google data it accesses</h2>
+  <ul>
+    <li><strong>Google Calendar</strong> (<code>calendar.readonly</code>, <code>calendar.events.owned</code>): reads today's events for the morning brief, reminders and the dashboard. Adds new events to the owner's own calendar, without guests, only after the owner approves each one. It does not change or delete events.</li>
+    <li><strong>Gmail</strong> (<code>gmail.readonly</code>, <code>gmail.modify</code>, <code>gmail.compose</code>): reads the sender, subject and preview of recent inbox mail to point out messages that may need an answer and to suggest labels. Reads the full text of a single message when the owner asks for a reply. Adds labels, moves mail out of the inbox, writes drafts and sends replies, each only after the owner approves it. It never deletes mail.</li>
+  </ul>
+
+  <h2>How it is used</h2>
+  <p>The data is used only to show the owner their own schedule and mail, and to carry out actions the owner approves. It is not used for advertising, it is not sold, and no person other than the owner reads it.</p>
+
+  <h2>Where it goes</h2>
+  <ul>
+    <li><strong>The owner's computer.</strong> Sign-in tokens and app data are stored there. AI Assistant runs no cloud or hosted server. Its dashboard runs on the owner's computer and is reachable only from the owner's own devices over a private network.</li>
+    <li><strong>AI model (Anthropic Claude).</strong> To write summaries, suggested labels and reply drafts, mail and calendar text is sent to Anthropic's Claude through the owner's own Claude account. It is sent only to produce those results for the owner. Anthropic keeps it under its own terms. Google user data is not used to develop, improve or train AI or machine-learning models, and the owner keeps the account's model-training option turned off.</li>
+    <li><strong>Telegram (optional, off unless the owner links it).</strong> Alerts sent to the owner's own Telegram chat carry counts only, such as the number of events today or of emails that may need an answer. If the owner also turns on chat, replies the owner asks for in that chat may include details from their calendar or mail. Those messages pass through and are stored by Telegram.</li>
+  </ul>
+  <p>Google user data is not shared with or transferred to anyone else.</p>
+
+  <h2>Limited Use</h2>
+  <p>AI Assistant's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Removing access and data</h2>
+  <p>Access can be removed at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Local data, including sign-in tokens, is removed by deleting the app's folder on the owner's computer.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: use the support email shown on the Google sign-in screen for AI Assistant.</p>
+
+  <p><a href="index.html">Home</a></p>
+</main>
+</body>
+</html>
